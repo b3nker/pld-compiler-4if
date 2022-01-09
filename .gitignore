@@ -1,0 +1,30 @@
+# Compiled Object files
+compiler/tmp
+*.o
+
+# Executables
+*.out
+compiler/ifcc
+
+# ANTLR4 generated
+compiler/antlr4-generated
+compiler/src/antlr4-generated
+.antlr
+
+# Compiler scripts
+compiler/compile_ubuntu.sh
+
+# Tests
+tests/pld-test-output
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+.vscode
+.idea
